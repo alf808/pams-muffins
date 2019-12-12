@@ -1,0 +1,128 @@
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\attackTools>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\attackTools
+
+05/28/2018  03:37 PM    <DIR>          .
+05/28/2018  03:37 PM    <DIR>          ..
+05/28/2018  03:37 PM            59,392 nc.exe
+               1 File(s)         59,392 bytes
+               2 Dir(s)   7,454,715,904 bytes free
+
+C:\attackTools>net use z: \\10.10.1.20\c$ /USER:10.10.1.20\jon
+net use z: \\10.10.1.20\c$ /USER:10.10.1.20\jon
+Enter the password for '10.10.1.20\jon' to connect to '10.10.1.20': .jon
+System error 1326 has occurred.
+
+Logon failure: unknown user name or bad password.
+
+The password is invalid for \\10.10.1.20\c$.
+
+
+
+C:\attackTools>jon
+'jon' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\attackTools>net use z: \\10.10.1.20\admin$ /USER:10.10.1.20\jon
+net use z: \\10.10.1.20\admin$ /USER:10.10.1.20\jon
+Enter the password for '10.10.1.20\jon' to connect to '10.10.1.20': .System error 1326 has occurred.
+
+Logon failure: unknown user name or bad password.
+
+The password is invalid for \\10.10.1.20\admin$.
+
+
+
+C:\attackTools>net use z: \\10.10.1.20\C$ /USER:10.10.1.20\jon
+net use z: \\10.10.1.20\C$ /USER:10.10.1.20\jon
+Enter the password for '10.10.1.20\jon' to connect to '10.10.1.20': .System error 1326 has occurred.
+
+Logon failure: unknown user name or bad password.
+
+The password is invalid for \\10.10.1.20\C$.
+
+
+
+C:\attackTools>net use
+net use
+New connections will be remembered.
+
+
+Status       Local     Remote                    Network
+
+-------------------------------------------------------------------------------
+             E:        \\vboxsrv\Desktop         VirtualBox Shared Folders
+The command completed successfully.
+
+
+C:\attackTools>net use -h
+net use -h
+System error 67 has occurred.
+
+The network name cannot be found.
+
+
+C:\attackTools>net use help
+net use help
+System error 67 has occurred.
+
+The network name cannot be found.
+
+
+C:\attackTools>net use /?
+net use /?
+The syntax of this command is:
+
+
+NET USE 
+[devicename | *] [\\computername\sharename[\volume] [password | *]]
+        [/USER:[domainname\]username]
+        [/USER:[dotted domain name\]username]   
+        [/USER:[username@dotted domain name]      
+        [/SMARTCARD]
+        [/SAVECRED]
+        [[/DELETE] | [/PERSISTENT:{YES | NO}]]
+
+NET USE {devicename | *} [password | *] /HOME
+
+NET USE [/PERSISTENT:{YES | NO}]
+
+
+
+C:\attackTools>net use z: \\10.10.1.20\C$ jon /USER:10.10.1.20\jon
+net use z: \\10.10.1.20\C$ jon /USER:10.10.1.20\jon
+System error 1326 has occurred.
+
+Logon failure: unknown user name or bad password.
+
+
+C:\attackTools>ipconfig
+ipconfig
+
+
+Windows IP Configuration
+
+
+
+
+
+Ethernet adapter Local Area Connection:
+
+
+
+        Connection-specific DNS Suffix  . : 
+
+        IP Address. . . . . . . . . . . . : 10.10.1.30
+
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+
+        Default Gateway . . . . . . . . . : 10.10.1.1
+
+
+C:\attackTools>

@@ -1,0 +1,198 @@
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\attackTools>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\attackTools
+
+05/28/2018  03:37 PM    <DIR>          .
+05/28/2018  03:37 PM    <DIR>          ..
+05/28/2018  03:37 PM            59,392 nc.exe
+               1 File(s)         59,392 bytes
+               2 Dir(s)   7,454,887,936 bytes free
+
+C:\attackTools>cd ..
+cd ..
+
+C:\>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\
+
+05/28/2018  03:26 PM    <DIR>          analysis
+05/28/2018  03:37 PM    <DIR>          attackTools
+05/28/2018  03:17 PM                 0 AUTOEXEC.BAT
+05/28/2018  03:17 PM                 0 CONFIG.SYS
+05/28/2018  03:18 PM    <DIR>          Documents and Settings
+05/28/2018  03:22 PM    <DIR>          Program Files
+05/28/2018  03:22 PM    <DIR>          WINDOWS
+               2 File(s)              0 bytes
+               5 Dir(s)   7,454,887,936 bytes free
+
+C:\>cd attackTools
+cd attackTools
+
+C:\attackTools>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\attackTools
+
+05/28/2018  03:37 PM    <DIR>          .
+05/28/2018  03:37 PM    <DIR>          ..
+05/28/2018  03:37 PM            59,392 nc.exe
+               1 File(s)         59,392 bytes
+               2 Dir(s)   7,454,887,936 bytes free
+
+C:\attackTools>cd..
+cd..
+
+C:\>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\
+
+05/28/2018  03:26 PM    <DIR>          analysis
+05/28/2018  03:37 PM    <DIR>          attackTools
+05/28/2018  03:17 PM                 0 AUTOEXEC.BAT
+05/28/2018  03:17 PM                 0 CONFIG.SYS
+05/28/2018  03:18 PM    <DIR>          Documents and Settings
+05/28/2018  03:22 PM    <DIR>          Program Files
+05/28/2018  03:22 PM    <DIR>          WINDOWS
+               2 File(s)              0 bytes
+               5 Dir(s)   7,454,887,936 bytes free
+
+C:\>cd "documents and settings"
+cd "documents and settings"
+
+C:\Documents and Settings>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\Documents and Settings
+
+05/28/2018  03:18 PM    <DIR>          .
+05/28/2018  03:18 PM    <DIR>          ..
+05/28/2018  03:16 PM    <DIR>          All Users
+05/28/2018  03:18 PM    <DIR>          jon
+               0 File(s)              0 bytes
+               4 Dir(s)   7,454,887,936 bytes free
+
+C:\Documents and Settings>cd jon
+cd jon
+
+C:\Documents and Settings\jon>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\Documents and Settings\jon
+
+05/28/2018  03:18 PM    <DIR>          .
+05/28/2018  03:18 PM    <DIR>          ..
+05/28/2018  03:26 PM    <DIR>          Desktop
+05/28/2018  03:18 PM    <DIR>          Favorites
+05/28/2018  03:18 PM    <DIR>          My Documents
+05/28/2018  05:06 AM    <DIR>          Start Menu
+               0 File(s)              0 bytes
+               6 Dir(s)   7,454,887,936 bytes free
+
+C:\Documents and Settings\jon>cd desk	
+cd desk	
+The system cannot find the path specified.
+
+C:\Documents and Settings\jon>cd desktop
+cd desktop
+
+C:\Documents and Settings\jon\Desktop>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\Documents and Settings\jon\Desktop
+
+05/28/2018  03:26 PM    <DIR>          .
+05/28/2018  03:26 PM    <DIR>          ..
+05/28/2018  03:25 PM                74 startTshark.bat
+05/13/2018  12:04 PM        20,960,472 Wireshark-win32-1.8.3.exe
+               2 File(s)     20,960,546 bytes
+               2 Dir(s)   7,454,887,936 bytes free
+
+C:\Documents and Settings\jon\Desktop>cd \
+cd \
+
+C:\>dri
+dri
+'dri' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\
+
+05/28/2018  03:26 PM    <DIR>          analysis
+05/28/2018  03:37 PM    <DIR>          attackTools
+05/28/2018  03:17 PM                 0 AUTOEXEC.BAT
+05/28/2018  03:17 PM                 0 CONFIG.SYS
+05/28/2018  03:18 PM    <DIR>          Documents and Settings
+05/28/2018  03:22 PM    <DIR>          Program Files
+05/28/2018  03:22 PM    <DIR>          WINDOWS
+               2 File(s)              0 bytes
+               5 Dir(s)   7,454,887,936 bytes free
+
+C:\>cd "program files"
+cd "program files"
+
+C:\Program Files>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7431-84EC
+
+ Directory of C:\Program Files
+
+05/28/2018  03:22 PM    <DIR>          .
+05/28/2018  03:22 PM    <DIR>          ..
+05/28/2018  03:16 PM    <DIR>          Common Files
+05/28/2018  03:16 PM    <DIR>          ComPlus Applications
+05/28/2018  03:16 PM    <DIR>          Internet Explorer
+05/28/2018  03:16 PM    <DIR>          Messenger
+05/28/2018  03:17 PM    <DIR>          microsoft frontpage
+05/28/2018  03:16 PM    <DIR>          Movie Maker
+05/28/2018  03:16 PM    <DIR>          MSN
+05/28/2018  03:16 PM    <DIR>          MSN Gaming Zone
+05/28/2018  03:16 PM    <DIR>          NetMeeting
+05/28/2018  03:16 PM    <DIR>          Online Services
+05/28/2018  03:21 PM    <DIR>          Oracle
+05/28/2018  03:16 PM    <DIR>          Outlook Express
+05/28/2018  03:16 PM    <DIR>          Windows Media Player
+05/28/2018  03:16 PM    <DIR>          Windows NT
+05/28/2018  03:22 PM    <DIR>          WinPcap
+05/28/2018  03:22 PM    <DIR>          Wireshark
+05/28/2018  03:17 PM    <DIR>          xerox
+               0 File(s)              0 bytes
+              19 Dir(s)   7,454,887,936 bytes free
+
+C:\Program Files>ping 10.10.1.20
+ping 10.10.1.20
+
+
+Pinging 10.10.1.20 with 32 bytes of data:
+
+
+
+Reply from 10.10.1.20: bytes=32 time=1ms TTL=128
+
+Reply from 10.10.1.20: bytes=32 time=2ms TTL=128
+
